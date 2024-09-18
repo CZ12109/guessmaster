@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  #gameArea {
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+  }
+  #carImage {
+    width: 100%;
+    filter: blur(10px); /* Full image blur */
+  }
+  #clearSection {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    clip-path: circle(50px at center);
+    filter: none; /* The clear section */
+  }
+  
